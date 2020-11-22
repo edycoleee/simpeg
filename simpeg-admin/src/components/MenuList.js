@@ -37,7 +37,15 @@ export const mainListItems = (
         <ListItemText primary="Pegawai" className="rntcblue rnthl" />
       </ListItem>
     </Link>
-    <Link to="/file">
+    <Link to="/pegdetail">
+      <ListItem button>
+        <ListItemIcon>
+          <AssessmentTwoToneIcon />
+        </ListItemIcon>
+        <ListItemText primary="Data Pegawai" />
+      </ListItem>
+    </Link>
+    <Link to="/pegfile">
       <ListItem button>
         <ListItemIcon>
           <AssessmentTwoToneIcon />

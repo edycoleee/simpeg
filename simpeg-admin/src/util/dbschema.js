@@ -66,6 +66,21 @@ export const CL_PEGAWAI = [
     c_tmtkgb: "",
     c_nmfoto: "",
     c_linkfoto: "",
+    n_gaji:"",
+    c_tmtawalkont:"",
+    c_tmtakhirkon:"",
+    c_jabatan:"",
+    c_pendidikan:"",
+    c_bidang:"",
+    c_posisi:"",
+    n_cuti:"",
+    a_cuti:[{
+      c_id:"",
+      c_tglawal:"",
+      c_tglakhir:"",
+      n_jumlah:"",
+      c_keterangan:""
+    }],
     a_jabatan: [
       {
         c_id: "",

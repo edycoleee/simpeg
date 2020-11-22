@@ -10,6 +10,7 @@ import Dashboard from "./pages/dashboard";
 import IndexUser from "./pages/userProfile";
 import UserAdmin from "./pages/datauser";
 import IndexPegawai from "./pages/pegawai";
+import IndexPegDetail from "./pages/pegdetail";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <PrivateRoute exact path="/user" component={IndexUser} />
         <PrivateRoute exact path="/datauser" component={UserAdmin} />
         <PrivateRoute exact path="/pegawai" component={IndexPegawai} />
+        <PrivateRoute exact path="/pegdetail" component={IndexPegDetail} />
         <Route component={ErrorPage} />
       </Switch>
     </Router>
